@@ -25,10 +25,10 @@ Copy this folder into your agent's skills directory.
 
 ```bash
 # Claude Code (personal skills)
-cp -r mimic ~/.claude/skills/mimic
+git clone https://github.com/Cobalt-agency/mimic ~/.claude/skills/mimic
 
 # Claude Code (single project)
-cp -r mimic <project>/.claude/skills/mimic
+git clone https://github.com/Cobalt-agency/mimic .claude/skills/mimic
 ```
 
 For other agents, point them at `SKILL.md`. The `references/` files are loaded on demand.
@@ -38,8 +38,8 @@ For other agents, point them at `SKILL.md`. The `references/` files are loaded o
 Just ask:
 
 - "Clone this app" (attach an APK or EXE)
-- "Make my own version of <software name>"
-- "Build an open-source alternative to <tool>"
+- "Make my own version of Obsidian"
+- "Build an open-source alternative to Photoshop"
 
 Or run the fingerprinter by hand:
 
@@ -68,4 +68,4 @@ Use it to learn, to build personal tools, and to create legitimate alternatives.
 
 ## License
 
-Choose one that fits your project (MIT is a common default).
+MIT. See [LICENSE](LICENSE).
